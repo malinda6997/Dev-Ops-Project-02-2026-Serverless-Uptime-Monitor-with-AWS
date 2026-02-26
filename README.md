@@ -139,8 +139,8 @@ Add the following secrets one by one:
 
 ---
 
-### Step 09 – Add SNS Topic ARN
-![Step 09](Readme-images/09.png)
+### Step 09 – View CloudWatch Matrics
+![Step 09](Readme-images/lambdamonitoring.png.png)
 
 ---
 
