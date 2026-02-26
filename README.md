@@ -115,8 +115,11 @@ Add the following secrets one by one:
 
 ---
 
-### Step 05 – Select Python Runtime
-![Step 05](Readme-images/05.png)
+### Step 05 – Create Lambda Function
+![Step 05](Readme-images/Lambda-1.png)
+![Step 05](Readme-images/Lambda-permission.png)
+![Step 05](Readme-images/successfull-create-lambda.png)
+
 
 ---
 
