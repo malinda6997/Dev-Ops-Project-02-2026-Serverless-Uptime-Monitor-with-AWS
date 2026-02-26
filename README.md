@@ -139,13 +139,13 @@ Add the following secrets one by one:
 
 ---
 
-### Step 09 – View CloudWatch Matrics
+### Step 09 – View CloudWatch Metrics
 ![Step 09](Readme-images/lambdamonitoring.png)
 
 ---
 
-### Step 10 – Save & Deploy Lambda
-![Step 10](Readme-images/10.png)
+### Step 10 – View CloudWatch Log Group
+![Step 10](Readme-images/cloudwatch-log.png)
 
 ---
 
