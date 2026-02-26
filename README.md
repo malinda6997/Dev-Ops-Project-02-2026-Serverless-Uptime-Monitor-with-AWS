@@ -128,8 +128,8 @@ Add the following secrets one by one:
 
 ---
 
-### Step 07 – Paste Lambda Code
-![Step 07](Readme-images/07.png)
+### Step 07 – Deploy Lambda Code Using Git Action
+![Step 07](Readme-images/successful deploy-gitaction-to -lambda.png)
 
 ---
 
