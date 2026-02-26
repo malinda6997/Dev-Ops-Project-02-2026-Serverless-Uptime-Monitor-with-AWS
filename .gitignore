@@ -22,3 +22,8 @@ dist/
 .vscode/
 .idea/
 Thumbs.db
+
+# --- GitHub Actions / Deployment ---
+*.zip
+.python-version
+node_modules/
