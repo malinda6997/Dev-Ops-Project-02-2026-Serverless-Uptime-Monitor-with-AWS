@@ -1,0 +1,24 @@
+# --- AWS & Terraform 
+.terraform/
+*.tfstate
+*.tfstate.backup
+.aws/
+credentials
+access_keys.csv
+
+# --- Python
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+env/
+.env
+build/
+dist/
+*.zip
+
+# --- OS & IDE Files ---
+.DS_Store
+.vscode/
+.idea/
+Thumbs.db
