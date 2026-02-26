@@ -140,7 +140,7 @@ Add the following secrets one by one:
 ---
 
 ### Step 09 – View CloudWatch Matrics
-![Step 09](Readme-images/lambdamonitoring.png.png)
+![Step 09](Readme-images/lambdamonitoring.png)
 
 ---
 
