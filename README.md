@@ -92,19 +92,13 @@ aws-serverless-monitor-project-01/
 ---
 
 ### Step 03 – Create IAM Role
-![Step 03](Readme-images/IAM Role-1.png)
-
-![Step 03](Readme-images/IAM Role-2.png)
-
-![Step 03](Readme-images/IAM Role-3.png)
-
-![Step 03](Readme-images/IAM Role-4.png)
-
-![Step 03](Readme-images/IAM Role-5.png)
-
-![Step 03](Readme-images/IAM Role-6.png)
-
-![Step 03](Readme-images/IAM Role-7.png)
+![Step 03](Readme-images/IAM%20Role-1.png)
+![Step 03](Readme-images/IAM%20Role-2.png)
+![Step 03](Readme-images/IAM%20Role-3.png)
+![Step 03](Readme-images/IAM%20Role-4.png)
+![Step 03](Readme-images/IAM%20Role-5.png)
+![Step 03](Readme-images/IAM%20Role-6.png)
+![Step 03](Readme-images/IAM%20Role-7.png)
 
 ---
 
