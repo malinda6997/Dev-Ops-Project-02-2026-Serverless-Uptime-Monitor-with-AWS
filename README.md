@@ -1,59 +1,73 @@
 # 🚀 Serverless Website Uptime Monitor & Real-time Alerting System
 
-[මෙහි Banner එකක් හෝ Project එකේ ප්‍රධාන Screenshot එකක් (lambda-monitoring.png)]
+![Project Banner](./Readme-images/lambda-monitoring.png)
 
 ## 🌐 Introduction
-[Project එක ගැන හැඳින්වීමක් සහ Real-world Use Cases]
+This is a professional, cloud-native uptime monitoring solution. It autonomously tracks the availability of websites and sends instant email notifications if a downtime occurs. Built using a serverless architecture, it ensures 24/7 reliability with zero server maintenance.
 
----
-
-## 🏗️ System Architecture
-[GitHub -> Lambda -> SNS වැඩ කරන විදිහ ගැන කෙටි විස්තරයක්]
+### 🌍 Real-World Use Cases
+* **E-commerce Monitoring:** Ensure online stores never miss a sale due to undetected downtime.
+* **Portfolio Protection:** Keep a constant eye on personal portfolios or client websites.
+* **SaaS Health Checks:** Monitor API endpoints and service status for software applications.
 
 ---
 
 ## 🛠️ Step-by-Step Implementation Guide
 
-### Phase 1: Local Development & GitHub Setup
-* Development in VS Code.
-* Configuring GitHub Secrets (AWS Keys).
-[Screenshots: VS Code setup, project files, GitHub secrets]
+### 1. Initial Environment & GitHub Access
+The foundation starts with setting up the local development environment in VS Code and configuring GitHub secrets for secure AWS communication.
+![VS Code Environment](./Readme-images/image_bec09a.jpg)
+![Project Structure](./Readme-images/Screenshot%202026-02-26%20151901.jpg)
+![GitHub Secrets](./Readme-images/git-action-variables.png)
 
-### Phase 2: AWS SNS (Notification Backbone)
-* Creating a Topic.
-* Setting up Email Subscriptions & Confirmation.
-[Screenshots: SNS topic creation, subscription steps, email confirm mail]
+### 2. AWS SNS Configuration (Messaging Backbone)
+Setting up the Simple Notification Service to handle email alerts.
+![SNS Topic Setup](./Readme-images/SNS-1.png)
+![SNS Subscription](./Readme-images/SNS-2.png)
+![Email Confirmation](./Readme-images/SNS-6-aws-confirm-mail.png)
 
-### Phase 3: AWS IAM (Security & Permissions)
-* Creating Execution Roles.
-* Attaching SNS and CloudWatch Policies.
-[Screenshots: IAM Role creation steps 1-7]
+### 3. AWS IAM Role & Permissions (Security)
+Configuring Identity and Access Management (IAM) to ensure the Lambda function has exact permissions.
+![IAM Step 1](./Readme-images/IAM%20Role-1.png)
+![IAM Step 2](./Readme-images/IAM%20Role-2.png)
+![IAM Step 3](./Readme-images/IAM%20Role-3.png)
+![IAM Step 4](./Readme-images/IAM%20Role-4.png)
+![IAM Step 5](./Readme-images/IAM%20Role-5.png)
+![IAM Step 6](./Readme-images/IAM%20Role-6.png)
+![IAM Step 7](./Readme-images/IAM%20Role-7.png)
 
-### Phase 4: AWS Lambda & EventBridge Configuration
-* Creating the Serverless Function.
-* Scheduling the 5-minute Trigger (Cron job).
-[Screenshots: Lambda dashboard, adding triggers, trigger success status]
+### 4. AWS Lambda & EventBridge Integration
+Creating the serverless function and scheduling it to run every 5 minutes.
+![Lambda Function](./Readme-images/lambda-1.png)
+![Code Preview](./Readme-images/lambda-our-code.png)
+![Add Trigger](./Readme-images/lambda-add-trigger.png)
+![Trigger Success](./Readme-images/lambda-successfull-add-trigger.jpg)
 
-### Phase 5: CI/CD Pipeline (GitHub Actions)
-* Automated deployment using workflows.
-[Screenshots: Git push process, GitHub Actions success logs]
+### 5. Deployment via GitHub Actions (CI/CD)
+Pushing the code to GitHub and watching the automated deployment pipeline.
+![Git Push](./Readme-images/lambda-permission.png)
+![CI/CD Success](./Readme-images/successful-deploy-gitaction-to-lambda.png)
 
-### Phase 6: Testing & Results
-* Simulating a Site Failure.
-* Automated Email Alerts.
-[Screenshots: Manual test results, "Site Down" email alert]
+### 6. Rigorous Testing & Downtime Alerts
+Verifying the system by simulating downtime.
+![Lambda Test Result](./Readme-images/lambda-test-pass.jpg)
+![Email Alert](./Readme-images/site%20down%20email.png)
 
-### Phase 7: Monitoring & Observability
-* Analyzing CloudWatch Logs.
-* Performance Metrics tracking.
-[Screenshots: CloudWatch logs, healthy/unhealthy log streams, metrics dashboard]
+### 7. Monitoring & Observability (CloudWatch)
+Analyzing logs and metrics to ensure long-term health.
+![CloudWatch Overview](./Readme-images/cloudwatch%20log.jpg)
+![Healthy Logs](./Readme-images/beforecloudwall%20log%20expand.jpg)
+![Downtime Log Detail](./Readme-images/site%20down%20after%20cloud%20watch%20logs%20expand.jpg)
+![Detailed Stream](./Readme-images/after%20cloud%20watch%20logs.jpg)
+![Troubleshooting Permissions](./Readme-images/image_c16c2a.png)
+![Execution Metrics](./Readme-images/image_c16452.jpg)
 
 ---
 
-## 🔓 Open Source Project
-[මෙය Open Source එකක් බව සහ දායක විය හැකි ආකාරය]
+## 🔓 Open Source & Contributions
+This is an **Open Source** project. Feel free to clone, fork, and enhance the code.
 
 ## 👨‍💻 Developed By
 **Malinda Prabath**
-* 📧 Email: malindaprabath876@gmail.com
-* [LinkedIn / Portfolio Links]
+* 📧 Email: [malindaprabath876@gmail.com](mailto:malindaprabath876@gmail.com)
+* 💼 Cloud & DevOps Enthusiast
